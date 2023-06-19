@@ -38,7 +38,7 @@ img{
   position: relative;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  margin-bottom: -265px ;
+  margin-bottom: -205px ;
 }
 
 
@@ -47,4 +47,46 @@ img{
 }
 .d-none{
   display: none;
+}
+.lolo{
+  width: 400px;
+  height: 600px;
+  background-image: url(../img//ed-hunter-x-hunter-en-route-vers-greed-island-cover-3d.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 37px 37px 10px 0px;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 50% ;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.lolo button {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  background-color: rgb(40, 46, 113);
+}
+.lolo div button {
+  background-color: rgb(40, 46, 113);
+  border: none;
+  border-radius: 5px;
+}
+body{
+  background-image: url(../img/fond\ ecran.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input{
+  height: 30PX;
+  border-radius: 10PX ;
+  outline: none;
+  border: none;
 }
